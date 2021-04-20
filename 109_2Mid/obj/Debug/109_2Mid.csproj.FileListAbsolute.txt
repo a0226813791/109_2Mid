@@ -1,0 +1,2 @@
+C:\Users\a0226\source\repos\109_2Mid\期中\109_2Mid\obj\Debug\109_2Mid.csprojAssemblyReference.cache
+C:\Users\a0226\source\repos\109_2Mid\期中\109_2Mid\obj\Debug\109_2Mid.csproj.CoreCompileInputs.cache
