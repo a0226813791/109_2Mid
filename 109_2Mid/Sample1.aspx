@@ -10,9 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label2" runat="server" Font-Size="XX-Large" Text="會員註冊"></asp:Label>
-            <br />
-            <br />
+            <div>
+                <h1>會員註冊</h1></div>
             <asp:Label ID="Label1" runat="server" Font-Size="X-Large" Text="會員帳號"></asp:Label>
             <asp:TextBox ID="tb_Acc" runat="server" Height="15px" OnTextChanged="TextBox1_TextChanged" Width="200px"></asp:TextBox>
             <br />

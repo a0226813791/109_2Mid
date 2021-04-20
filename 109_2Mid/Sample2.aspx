@@ -10,9 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label6" runat="server" Font-Names="微軟正黑體" Font-Size="XX-Large" Text="訂貨單"></asp:Label>
-            <br />
-            <br />
+            <div>
+                <h1>訂貨單</h1></div>
             <asp:DropDownList ID="ddl_Area" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                 <asp:ListItem>北區</asp:ListItem>
                 <asp:ListItem>中區</asp:ListItem>
@@ -36,7 +35,7 @@
             <br />
             <asp:TextBox ID="tb_Des" runat="server" Visible="False" Width="400px"></asp:TextBox>
             <br />
-            <asp:Button ID="Button2" runat="server" Text="btn_Sub" />
+            <asp:Button ID="Button2" runat="server" Text="送出" />
             <br />
             <asp:Label ID="lb_Msg" runat="server"></asp:Label>
         </div>
